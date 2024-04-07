@@ -1,0 +1,5 @@
+bison -d proiect.y
+flex -o proiect.yy.c proiect.l
+gcc -o proiectA.exe proiect.tab.c proiect.yy.c proiectA.c -lm -lfl
+gcc -o proiectC.exe proiect.tab.c proiect.yy.c proiectC.c -lm -lfl
+

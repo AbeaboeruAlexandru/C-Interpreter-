@@ -1,0 +1,92 @@
+a=10;
+write a;
+b=20;
+c=a+b+30;
+write c;
+
+d=-25;
+e=c+d;
+write e;
+
+A=10;
+B=A++;
+write B;
+
+A=10;
+B=A--;
+write B;
+
+A=10;
+B=++A;
+write B;
+
+A=10;
+B=--A;
+write B;
+
+if(a>=b){
+write a;
+}
+else{
+write b;
+write a;}
+
+while(a<b)
+a++;
+write a;
+
+a=5;
+for(i=0;i<=a;i++){
+write i;
+write a;
+}
+
+A=50;
+A/=2;
+write A;
+
+A=50;
+A*=2;
+write A;
+
+A=50;
+A+=2;
+write A;
+
+A=50;
+A-=2;
+write A;
+
+a=045;
+write a;	//37
+
+a=0xA5;
+write a;	//165
+
+a=0Xa5;
+write a;	//165
+
+//coment pe o linie
+
+/* coment pe mai multe
+linii
+de testat!!!
+*/
+
+D=90u;
+write D;
+a=67u;
+b=7U;
+write a+b;
+a=67l;
+b=-7L;
+write a+b;
+a=67ul;
+b=7UL;
+write a+b;
+
+
+
+
+
+
